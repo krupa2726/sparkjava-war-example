@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: Demo
+ name : Demo
 
 steps:
 - task: Maven@3
